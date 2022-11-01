@@ -4,18 +4,6 @@ using System.Text.RegularExpressions;
 
 namespace AddressLibrary
 {
-
-    // API NR1 MPAQUEST (MAX 15.000 Request a month for free)
-    // http://www.mapquestapi.com/directions/v2/route?key=h3n6aCTc1Zr0x7lAAlEheH5uL2fQ3WYy&from=Start_Address&to=Destiny_Address&unit=k
-    // Used for: Getting Driving Distance
-    // Get API_KEY at https://developer.mapquest.com/user/login
-
-    // API NR2 NOMINATIM (Unlimited Request, No API_KEY)
-    // https://nominatim.openstreetmap.org/search.php?q=Some_Example_Address&format=jsonv2
-    // Used for: Getting Coordinates 
-
-    //Please read the TOS (Terms of use) from both APIs before using this code
-
     /// <summary>
     /// Get Coordinates for Adresses and calculate air/car distance in km
     /// </summary>
@@ -139,7 +127,7 @@ namespace AddressLibrary
             const string API_KEY = ""; // Here goes your api key
             string url = $"http://www.mapquestapi.com/directions/v2/route?unit=k&key={API_KEY}&from={name_start}&to={name_destiny}";
 
-            Regex regex = new Regex("\\\"distance\\\"\\:\\d{1,}\\.\\d{3}|\"distance\":[0-9]{1,}");
+            Regex regex = new Regex("\\\"distance\\\"\\:\\d{1,}\\.\\d{3}|\"distance\":[0-9]{1,}"); // Used Regex since only 1 parameter is required
 
             string data = RequestWebString(url);
 
