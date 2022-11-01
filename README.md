@@ -8,7 +8,7 @@ Create Addresses and Calculate the distance between them using Coordinates and A
 
 <h2>APIs used</h2>
 
-<h3>API NR1 MPAQUEST (MAX 15.000 Request a month for free) </h3>
+<h3>API NR1 MAPQUEST (MAX 15.000 Request a month for free) </h3>
 https://developer.mapquest.com/documentation/ <br>
 Used for: Getting Driving Distance <br>
 Get API_KEY at https://developer.mapquest.com/user/login
