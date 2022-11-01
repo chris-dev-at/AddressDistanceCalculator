@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "MexKjeW4WRSvo6npnAKPURoOVIXTXXITNgjG5Zgb5dmXaQWqqqSGJtkwDGaXkRwT7k37OyShpO4CTIVwZubAXA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\GitHub\\public\\AddressDistanceCalculator\\Tester\\Tester.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
