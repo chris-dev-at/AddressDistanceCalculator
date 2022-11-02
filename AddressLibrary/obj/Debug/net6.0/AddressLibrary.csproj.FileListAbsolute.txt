@@ -1,0 +1,12 @@
+C:\Users\admin\GitHub\public\AddressDistanceCalculator\AddressLibrary\bin\Debug\net6.0\AddressLibrary.deps.json
+C:\Users\admin\GitHub\public\AddressDistanceCalculator\AddressLibrary\bin\Debug\net6.0\AddressLibrary.dll
+C:\Users\admin\GitHub\public\AddressDistanceCalculator\AddressLibrary\bin\Debug\net6.0\AddressLibrary.pdb
+C:\Users\admin\GitHub\public\AddressDistanceCalculator\AddressLibrary\obj\Debug\net6.0\AddressLibrary.csproj.AssemblyReference.cache
+C:\Users\admin\GitHub\public\AddressDistanceCalculator\AddressLibrary\obj\Debug\net6.0\AddressLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\GitHub\public\AddressDistanceCalculator\AddressLibrary\obj\Debug\net6.0\AddressLibrary.AssemblyInfoInputs.cache
+C:\Users\admin\GitHub\public\AddressDistanceCalculator\AddressLibrary\obj\Debug\net6.0\AddressLibrary.AssemblyInfo.cs
+C:\Users\admin\GitHub\public\AddressDistanceCalculator\AddressLibrary\obj\Debug\net6.0\AddressLibrary.csproj.CoreCompileInputs.cache
+C:\Users\admin\GitHub\public\AddressDistanceCalculator\AddressLibrary\obj\Debug\net6.0\AddressLibrary.dll
+C:\Users\admin\GitHub\public\AddressDistanceCalculator\AddressLibrary\obj\Debug\net6.0\refint\AddressLibrary.dll
+C:\Users\admin\GitHub\public\AddressDistanceCalculator\AddressLibrary\obj\Debug\net6.0\AddressLibrary.pdb
+C:\Users\admin\GitHub\public\AddressDistanceCalculator\AddressLibrary\obj\Debug\net6.0\ref\AddressLibrary.dll

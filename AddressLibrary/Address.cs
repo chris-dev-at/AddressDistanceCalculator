@@ -119,10 +119,20 @@ namespace AddressLibrary
         public static decimal CalcDriveDistance(Address a, Address b)
         {
             // Modify this part so it works for your country
-            string[] tmp1 = a.Name.Split(",");
-            string name_start = $"{tmp1[0]} {tmp1[1]}, {tmp1[6]} Austria"; // Formating for best matches with other api
-            tmp1 = b.Name.Split(",");
-            string name_destiny = $"{tmp1[0]} {tmp1[1]}, {tmp1[6]} Austria"; // Formating for best matches with other api
+            string name_start = "";
+            string name_destiny = "";
+            try
+            {
+                string[] tmp1 = a.Name.Split(",");
+                name_start = $"{tmp1[0]} {tmp1[1]}, {tmp1[6]} Austria"; // Formating for best matches with other api
+                tmp1 = b.Name.Split(",");
+                name_destiny = $"{tmp1[0]} {tmp1[1]}, {tmp1[6]} Austria"; // Formating for best matches with other api
+            }
+            catch (Exception)
+            {
+                name_start = a.Name;
+                name_destiny = b.Name;
+            }
 
             const string API_KEY = ""; // Here goes your api key
             string url = $"http://www.mapquestapi.com/directions/v2/route?unit=k&key={API_KEY}&from={name_start}&to={name_destiny}";
