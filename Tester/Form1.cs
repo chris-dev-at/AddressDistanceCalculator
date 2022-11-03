@@ -53,8 +53,18 @@ namespace AddressHandler
         private void CalcDis_btn_Click(object sender, EventArgs e)
         {
             if(AdrList_cmb.SelectedItem != null && secondLoc_cmb.SelectedItem != null)
-                distance_outp.Text = $"Air: {Address.CalcDistance((Address)AdrList_cmb.SelectedItem, (Address)secondLoc_cmb.SelectedItem)}\n" +
-                    $"By Car: {Address.CalcDriveDistance((Address)AdrList_cmb.SelectedItem, (Address)secondLoc_cmb.SelectedItem)}";
+            {
+                double airdistance = Address.CalcDistance((Address)AdrList_cmb.SelectedItem, (Address)secondLoc_cmb.SelectedItem);
+                string cardistance = "ERROR Calculating!";
+                try
+                {
+                    cardistance = Address.CalcDriveDistance((Address)AdrList_cmb.SelectedItem, (Address)secondLoc_cmb.SelectedItem).ToString();
+                }
+                catch (Exception)  { }
+                distance_outp.Text = $"Air: {airdistance}\n" +
+                    $"By Car: {cardistance}";
+
+            }
         }
     }
 }

@@ -116,7 +116,7 @@ namespace AddressLibrary
         /// <param name="a">The starting Address</param>
         /// <param name="b">The destiny Address</param>
         /// <returns></returns>
-        public static decimal CalcDriveDistance(Address a, Address b)
+        public static double CalcDriveDistance(Address a, Address b)
         {
             // Modify this part so it works for your country
             string name_start = "";
@@ -142,7 +142,7 @@ namespace AddressLibrary
             string data = RequestWebString(url);
 
             string ret = regex.Matches(data)[0].Value.Split(":")[1].Replace(".", ",");
-            return Convert.ToDecimal(ret);
+            return Convert.ToDouble(ret);
         }
 
         /// <summary>
